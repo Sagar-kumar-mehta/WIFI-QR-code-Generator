@@ -7,7 +7,7 @@
 A sleek desktop application that generates scannable QR codes for Wi-Fi network credentials. Perfect for sharing your Wi-Fi with guests without revealing your password!
 
 
-## Features ✨
+## Features ✨<img width="895" height="724" alt="Screenshot 2025-08-13 194736" src="https://github.com/user-attachments/assets/928d1156-4ec1-4e12-b551-b61f2ce732ba" />
 
 - **Instant QR Generation**: Real-time updates as you type
 - **Multiple Security Protocols**: Supports WPA/WPA2, WPA3, WEP, and open networks
