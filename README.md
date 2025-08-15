@@ -35,13 +35,14 @@ A sleek desktop application that generates scannable QR codes for Wi-Fi network 
 ```
 python --version
 pip --version
+python -m pip install --upgrade pip
 ```
 
 2. requirements.txt
 
 Create a file named requirements.txt in your project root with the following content:
 ```
-qrcode>=7.4
+pip install qrcode>=7.4
 PyQt5>=5.15.4
 Pillow>=9.5.0
 pyinstaller>=5.11
@@ -74,13 +75,19 @@ python -m pip install -r requirements.txt
 Run the app
 
 From the same terminal (with the virtual environment activated), run:
-```python wifi_qr_generator.py```
+```
+python wifi_qr_generator.py
+```
 
 Or, if your system uses python3:
-```python3 wifi_qr_generator.py```
+```
+python3 wifi_qr_generator.py
+```
 
 If the script is a PyQt GUI, a window should open. If nothing happens, run it with:
-```python -u wifi_qr_generator.py```
+```
+python -u wifi_qr_generator.py
+```
 to see runtime output/errors in the terminal.
 
 
