@@ -12,7 +12,7 @@ A sleek desktop application that generates scannable QR codes for Wi-Fi network 
 - **Instant QR Generation**: Real-time updates as you type
 - **Multiple Security Protocols**: Supports WPA/WPA2, WPA3, WEP, and open networks
 - **Hidden Network Support**: Generates QR codes for non-broadcasting networks
-- **High-Resolution Export**: Save crisp 600DPI QR codes
+- **High-Resolution Export**: Save crisp 600 DPI QR codes
 - **Cross-Platform**: Works on Windows, macOS, and Linux
 - **Modern UI**: Clean, intuitive interface with visual feedback
 
@@ -21,6 +21,17 @@ A sleek desktop application that generates scannable QR codes for Wi-Fi network 
 ### Prerequisites
 - Python 3.7+
 - pip package manager
+
+**Installation & Running**
+  1. Install Python
+
+**_Windows_**
+
+Download and install Python from https://www.python.org/downloads/windows/..
+
+During setup check "Add Python to PATH".
+
+After install open PowerShell (or Command Prompt) and verify:
 
 Usage Guide 🚀
 1. Enter your Wi-Fi network name (SSID)
