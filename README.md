@@ -42,7 +42,7 @@ python -m pip install --upgrade pip
 
 Create a file named requirements.txt in your project root with the following content:
 ```
-pip install qrcode>=7.4
+qrcode>=7.4
 PyQt5>=5.15.4
 Pillow>=9.5.0
 pyinstaller>=5.11
