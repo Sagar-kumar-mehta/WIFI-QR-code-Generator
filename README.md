@@ -38,10 +38,11 @@ pip --version
 2. requirements.txt
 
 Create a file named requirements.txt in your project root with the following content:
-''''qrcode>=7.4''''  
-''''PyQt5>=5.15.4''''
-''''Pillow>=9.5.0''''
-
+<pre>```text
+qrcode>=7.4
+PyQt5>=5.15.4
+Pillow>=9.5.0
+pyinstaller>=5.11 '''<pre>
 
 3. Install project dependencies
 
