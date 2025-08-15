@@ -1,4 +1,4 @@
-# WIFI-QR-code-Generator# Perfect Wi-Fi QR Generator
+# WIFI-QR-code-Generator  #Perfect Wi-Fi QR Generator
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![PyQt5](https://img.shields.io/badge/PyQt5-5.15+-green.svg)
@@ -27,11 +27,57 @@ A sleek desktop application that generates scannable QR codes for Wi-Fi network 
 
 **_Windows_**
 
-Download and install Python from https://www.python.org/downloads/windows/..
+* Download and install Python from https://www.python.org/.
 
-During setup check "Add Python to PATH".
+* During setup check "Add Python to PATH".
 
-After install open PowerShell (or Command Prompt) and verify:
+* After install open PowerShell (or Command Prompt) and verify:
+python --version
+pip --version
+
+2. requirements.txt
+
+Create a file named requirements.txt in your project root with the following content:
+# Requirements for Perfect Wi-Fi QR Generator
+# Tested with Python 3.7+
+
+qrcode>=7.4
+PyQt5>=5.15.4
+Pillow>=9.5.0
+
+# Optional (for packaging / distribution)
+pyinstaller>=5.11
+
+3. Install project dependencies
+
+Open a terminal in your project directory and follow these steps (recommended: use a virtual environment).
+Create and activate a virtual environment
+
+Windows (PowerShell)
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+Windows (CMD)
+python -m venv venv
+.\venv\Scripts\activate
+
+Install packages from requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+(If your system uses python3 and pip3, replace python with python3.)
+
+Run the app
+
+From the same terminal (with the virtual environment activated), run:
+python wifi_qr_generator.py
+
+Or, if your system uses python3:
+python3 wifi_qr_generator.py
+
+If the script is a PyQt GUI, a window should open. If nothing happens, run it with:
+python -u wifi_qr_generator.py
+to see runtime output/errors in the terminal.
+
 
 Usage Guide 🚀
 1. Enter your Wi-Fi network name (SSID)
