@@ -91,7 +91,7 @@ python -u wifi_qr_generator.py
 to see runtime output/errors in the terminal.
 
 
-Usage Guide 🚀
+_**Usage Guide 🚀**_
 1. Enter your Wi-Fi network name (SSID)
 
 2. Type your Wi-Fi password
@@ -114,7 +114,7 @@ Usage Guide 🚀
 
 Tip: Print the QR code and place it where guests can easily scan it!
 
- Troubleshooting 🔧
+_** Troubleshooting 🔧**_
 Problem: QR code doesn't scan
 
 ~ Solution: Ensure correct security protocol is selected
