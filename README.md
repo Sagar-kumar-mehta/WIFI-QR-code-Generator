@@ -32,13 +32,20 @@ A sleek desktop application that generates scannable QR codes for Wi-Fi network 
 * During setup check "Add Python to PATH".
 
 * After install open PowerShell (or Command Prompt) and verify:
+```
 python --version
 pip --version
+```
 
 2. requirements.txt
 
 Create a file named requirements.txt in your project root with the following content:
-<pre> ```text qrcode>=7.4 PyQt5>=5.15.4 Pillow>=9.5.0 pyinstaller>=5.11 ``` </pre>
+```
+qrcode>=7.4
+PyQt5>=5.15.4
+Pillow>=9.5.0
+pyinstaller>=5.11
+```
 
 3. Install project dependencies
 
@@ -46,28 +53,34 @@ Open a terminal in your project directory and follow these steps (recommended: u
 Create and activate a virtual environment
 
 Windows (PowerShell)
+```
 python -m venv venv
 .\venv\Scripts\Activate.ps1
+```
 
 Windows (CMD)
+```
 python -m venv venv
 .\venv\Scripts\activate
+```
 
 Install packages from requirements.txt
+```
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+```
 (If your system uses python3 and pip3, replace python with python3.)
 
 Run the app
 
 From the same terminal (with the virtual environment activated), run:
-python wifi_qr_generator.py
+```python wifi_qr_generator.py```
 
 Or, if your system uses python3:
-python3 wifi_qr_generator.py
+```python3 wifi_qr_generator.py```
 
 If the script is a PyQt GUI, a window should open. If nothing happens, run it with:
-python -u wifi_qr_generator.py
+```python -u wifi_qr_generator.py```
 to see runtime output/errors in the terminal.
 
 
