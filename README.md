@@ -38,15 +38,10 @@ pip --version
 2. requirements.txt
 
 Create a file named requirements.txt in your project root with the following content:
-# Requirements for Perfect Wi-Fi QR Generator
-# Tested with Python 3.7+
+qrcode>=7.4  
+PyQt5>=5.15.4  
+Pillow>=9.5.0
 
-'''qrcode>=7.4
-PyQt5>=5.15.4
-Pillow>=9.5.0'''
-
-# Optional (for packaging / distribution)
-pyinstaller>=5.11
 
 3. Install project dependencies
 
