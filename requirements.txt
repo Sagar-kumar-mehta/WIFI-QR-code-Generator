@@ -1,0 +1,3 @@
+qrcode
+PyQt5
+Pillow
