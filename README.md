@@ -115,7 +115,7 @@ _**Usage Guide 🚀**_
 Tip: Print the QR code and place it where guests can easily scan it!
 
 
-_**_** Troubleshooting 🔧**_**_
+_** Troubleshooting 🔧**_
 Problem: QR code doesn't scan
 
 ~ Solution: Ensure correct security protocol is selected
